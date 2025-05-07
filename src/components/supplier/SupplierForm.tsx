@@ -66,38 +66,38 @@ const SupplierForm: React.FC = () => {
             </Form.Item>
           </Col>
           <Col span={12}>
-            <Form.Item
-              name="name"
+        <Form.Item
+          name="name"
               label="Nama Supplier"
               rules={[{ required: true, message: 'Nama supplier wajib diisi' }]}
-            >
+        >
               <Input placeholder="Masukkan nama supplier" />
-            </Form.Item>
+        </Form.Item>
           </Col>
         </Row>
 
         <Row gutter={16}>
           <Col span={12}>
-            <Form.Item 
-              name="email" 
-              label="Email"
+        <Form.Item 
+          name="email" 
+          label="Email"
               rules={[
                 { type: 'email', message: 'Format email tidak valid' }
               ]}
-            >
+        >
               <Input placeholder="Masukkan email supplier" />
-            </Form.Item>
+        </Form.Item>
           </Col>
           <Col span={12}>
-            <Form.Item 
-              name="phone" 
+        <Form.Item 
+          name="phone" 
               label="Nomor Telepon"
               rules={[
                 { pattern: /^[0-9+\-\s()]*$/, message: 'Format nomor telepon tidak valid' }
               ]}
-            >
+        >
               <Input placeholder="Masukkan nomor telepon" />
-            </Form.Item>
+        </Form.Item>
           </Col>
         </Row>
 
