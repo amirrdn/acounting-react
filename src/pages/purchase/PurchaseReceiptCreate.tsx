@@ -1,0 +1,1 @@
+import { purchaseReceiptService } from '@/api/purchase/receipt.api'; 

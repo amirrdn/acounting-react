@@ -1,0 +1,1 @@
+import { getPayments } from '@/api/purchase/payment.api'; 
