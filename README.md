@@ -5,7 +5,7 @@ Ini adalah frontend dari Sistem Akuntansi & Manajemen Bisnis berbasis web yang m
 ## ✨ Demo
 
 Lihat demo aplikasi di sini:  
-[https://frontendaccounting.vercel.app/](https://frontendaccounting.vercel.app/)
+[https://frontendaccounting.vercel.app/](https://acounting-react.vercel.app/)
 
 ## 🚀 Fitur Utama
 
